@@ -2,12 +2,12 @@ function Card({ name, cardNumber, cvc, month, year }) {
   return (
     <div className="relative">
       <img
-        src="/assets/images/bg-main-desktop.png"
+        src="assets/images/bg-main-desktop.png"
         alt="background rectangle"
         className="hidden h-screen Desktop:block Desktop:object-cover"
       />
       <img
-        src="/assets/images/bg-main-mobile.png"
+        src="assets/images/bg-main-mobile.png"
         alt="background rectangle"
         className="object-cover w-screen Desktop:hidden"
       />
